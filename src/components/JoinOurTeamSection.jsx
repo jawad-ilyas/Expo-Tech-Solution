@@ -9,7 +9,7 @@ function JoinOurTeamSection() {
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
 
                 <div className='no | flex flex-col justify-between items-start '>
-                    <div className='2xl:w-5/12 xl:w-5/12 pt-16 py-5 mb-sm-2 mb-md-3 mb-lg-5 mt-3 mt-sm-4  '>
+                    <div className='2xl:w-5/12 xl:w-5/12 py-5 mb-sm-2 mb-md-3 mb-lg-5 mt-3 mt-sm-4 no | px-3 pt-10 '>
                         <OurServicesWithButton title={"Join Our Team"} description={"We invite you to embark on a journey of growth, innovation, and collaboration. Join Code Flamme and become part of a dynamic community that values creativity, diversity, and professional development. Explore our open positions and take the first step towards a rewarding and fulfilling career where your ideas and contributions truly matter."} center={false} btnText={"Apply for a job"}/>
 
                     </div>

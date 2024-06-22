@@ -2,7 +2,7 @@ import React from 'react'
 
 function OurServicesWithButtonWithBg({ title, center, description, btnText }) {
     return (
-        <div className='no  | flex flex-col items-center justify-center px-12 pt-10 '>
+        <div className='no  | flex flex-col items-center justify-center px-8 pt-10 '>
             <h1 className='text-white text-4xl mb-3 font-semibold'>{title}</h1>
             <h5 className={`text-lightGray text-lg mt-6 mb-8 ${center === false ? "text-left" : "text-center"}`}>{description}</h5>
             <div className='pb-12'>
