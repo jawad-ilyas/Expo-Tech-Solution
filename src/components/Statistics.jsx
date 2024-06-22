@@ -2,7 +2,7 @@ import React from 'react';
 
 function Statistics({ heading, text, isFlex }) {
     return (
-        <div className={`${isFlex ? 'flex flex-col items-center text-start justify-center' : ''} lg:mt-0 mt-4`}>
+        <div className={`${isFlex ? 'flex flex-col items-center text-start justify-center' : ''} `}>
          <div>
                 <h1 className='text-primary lg:text-6xl lg:font-semibold no | text-4xl font-semibold'>{heading}</h1>
           

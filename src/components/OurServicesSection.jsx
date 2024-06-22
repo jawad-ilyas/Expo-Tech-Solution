@@ -38,7 +38,7 @@ function OurServicesSection() {
     return (
         <div>
             <OurServices title={"Our Services"} description={"We provide a wide range of Services"} />
-            <div className='grid grid-cols-3 gap-5 xl:w-11/12 mx-auto 2xl:w-8/12 mb-28'>
+            <div className=' xl:w-11/12 mx-auto 2xl:w-8/12 mb-28 no | grid grid-cols-1 gap-5 mx-2'>
                 {cardData.map((card, index) => (
                     <div key={index} data-aos={card.animation} className='flex'>
                         <Card title={card.title} description={card.description} hoverOrNot={true} />

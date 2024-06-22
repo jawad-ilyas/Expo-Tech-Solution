@@ -32,8 +32,8 @@ function Home() {
             {/* <Header /> */}
             <HeroSection />
             <AchievementsSection />
-            {/*<OurServicesSection />
-            <AccordianSection />
+             <OurServicesSection />
+            {/*  <AccordianSection />
 
             <WhyUsSection />
             <TestimonialSection />
