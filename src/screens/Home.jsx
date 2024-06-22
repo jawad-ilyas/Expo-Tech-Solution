@@ -35,8 +35,8 @@ function Home() {
              <OurServicesSection />
             <AccordianSection />
 
-            {/*  <WhyUsSection />
-            <TestimonialSection />
+           <WhyUsSection />
+            {/* <TestimonialSection />
             <FaqSection />
             <JoinOurTeamSection />
             <Footer /> */}

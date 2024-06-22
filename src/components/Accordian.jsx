@@ -46,7 +46,7 @@ function Accordion() {
     return (
         <div className='xl:w-11/12  2xl:w-8/12 mb-20 ' >
             <div className='no | flex flex-col items-center lg:space-x-16'>
-                <div className='lg:w-1/2 lg:space-y-4 no |  order-1  mt-4'>
+                <div className='lg:w-1/2 lg:space-y-4 no |  order-1 mx-4 mt-4'>
                     {items.map((item, index) => (
                         <div key={index} className={` ${openIndex === index ? 'delay-300 duration-300 transition-all ease-in-out text-primary' : "text-gray-600 "} `}>
                             <div

@@ -36,15 +36,15 @@ function WhyUsSection() {
     ];
 
     return (
-        <div className=''>
+        <div className='no | mx-4'>
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
 
-                <div className='flex flex-row justify-between items-start '>
-                    <div className='2xl:w-5/12 xl:w-5/12'>
+                <div className='no | flex flex-col justify-between items-start '>
+                    <div className='2xl:w-5/12 xl:w-5/12 no | w-full'>
                         <OurServices title={"Why Us"} description={"We are experts in providing high-quality mobile development, web development, UI/UX design, and digital marketing services to organizations of every description. reasons why you ought to collaborate with us"} />
                     </div>
-                    <div className='2xl:w-7/12 xl:w-7/12 ms-24'>
-                        <div className='grid grid-cols-2 gap-x-4 gap-y-10'>
+                    <div className='2xl:w-7/12 xl:w-7/12 lg:ms-24 no | w-full'>
+                        <div className='no | grid grid-cols-1 gap-x-0 gap-y-5'>
                             {servicesData.map((card, index) => (
                                 <div key={index} data-aos={card.animation} className='flex'>
                                     <CardWithNoBg title={card.title} description={card.description} image={card.image} hoverOrNot={false} imageBg={true} />
