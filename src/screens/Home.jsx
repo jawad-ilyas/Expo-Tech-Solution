@@ -36,10 +36,10 @@ function Home() {
             <AccordianSection />
 
            <WhyUsSection />
-            {/* <TestimonialSection />
+             <TestimonialSection />
             <FaqSection />
-            <JoinOurTeamSection />
-            <Footer /> */}
+          <JoinOurTeamSection />
+             <Footer />
         </div>
     );
 }

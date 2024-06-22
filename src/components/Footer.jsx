@@ -2,12 +2,12 @@ import React from 'react';
 import logoFooter from "../assets/logo-footer.png"
 function Footer() {
     return (
-        <div className='mb-20 pb-10'>
-            <div className="xl:w-11/12 mx-auto 2xl:w-8/12 bg-[url('/src/assets/footer-wave.png')] bg-no-repeat bg-cover py-16 bg-dark text-white rounded-3xl pt-28 px-24">
+        <div className='mb-20 pb-10 no | mx-4 mt-10'>
+            <div className="xl:w-11/12 mx-auto 2xl:w-8/12 bg-[url('/src/assets/footer-wave.png')] bg-no-repeat bg-cover py-16 bg-dark text-white rounded-3xl lg:pt-28 lg:px-24 no | px-8 pt-10">
                 <div className="">
                     <div className="">
-                        <div className="flex flex-col md:flex-row justify-between items-start">
-                            <div className="md:w-6/12 mb-8 md:mb-0">
+                        <div className="no | flex flex-col  justify-between items-start">
+                            <div className="md:w-6/12  mb-8 md:mb-0 no  | w-full">
                                 <img src={logoFooter} alt="Code Flamme" className="h-10 mb-4" />
                                 <p className='text-lightGray w-2/3'>We are dedicated to delivering innovative digital solutions that drive business growth and success. We create tailor-made software solutions that exceed client expectations and empower their digital transformation journey.</p>
                             </div>
@@ -43,7 +43,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="mt-8 ">
-                            <div>
+                            <div className='text-center'>
                                 <p>Copyright © 2024 Code Flamme. All Rights Reserved</p>
                             </div>
                         </div>

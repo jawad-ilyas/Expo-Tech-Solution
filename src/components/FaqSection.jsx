@@ -36,16 +36,16 @@ function FaqSection() {
         }
     ];
     return (
-        <div className='mb-20'>
+        <div className='mb-20 no | mx-4' >
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
-                <div className='flex flex-row justify-between items-start '>
+                <div className='no | flex flex-col justify-between items-start '>
                     <div className='2xl:w-5/12 xl:w-5/12'>
                         <OurServices title={"Any questions? Check out the FAQ"} description={"Curious minds, meet clarity. Unearth answers in our comprehensive FAQ section, illuminating our services and processes."} center={false} />
-                        <div className='flex items-center justify-between'>
+                        <div className='lg:flex items-center justify-between hidden'>
                             <img src={dynamicArrow} />
                         </div>
                     </div>
-                    <div className='2xl:w-7/12 xl:w-7/12 ms-24'>
+                    <div className='2xl:w-7/12 xl:w-7/12 lg:ms-24'>
                         <SimpleAccordian />
                     </div>
                 </div>
