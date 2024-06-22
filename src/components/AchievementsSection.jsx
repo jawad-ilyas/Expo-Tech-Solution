@@ -3,7 +3,7 @@ import Statistics from './Statistics'
 
 function AchievementsSection() {
     return (
-        <div className='xl:w-11/12 xl:mx-auto  2xl:w-8/12 lg:mx-5   lg:px-28 lg:py-16 lg:mt-12 lg:mb-16    no | w-full flex flex-row flex-wrap justify-between items-center   rounded-3xl bg-red-500  my-8 p-4 mx-auto'
+        <div className='xl:w-11/12 xl:mx-auto  2xl:w-8/12 lg:mx-5   lg:px-28 lg:py-16 lg:mt-12 lg:mb-16  bg-lightBg   no | w-full flex flex-row flex-wrap justify-between items-center   rounded-3xl my-8 p-4 mx-auto'
             style={{ width: 'calc(100% - 24px)' }}
         >
             <div className='lg:w-3/12 border-r-2 border-gray-200 no | mt-2  w-6/12'>
