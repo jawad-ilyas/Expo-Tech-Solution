@@ -36,7 +36,7 @@ function FaqSection() {
         }
     ];
     return (
-        <div className='mb-20 no | mx-4' >
+        <div className='mb-20 no | mx-4 | sm:mx-6' >
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
                 <div className='no | flex flex-col justify-between items-start '>
                     <div className='2xl:w-5/12 xl:w-5/12'>

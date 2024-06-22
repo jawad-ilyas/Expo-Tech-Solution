@@ -5,7 +5,7 @@ import OurServicesWithButtonWithBg from './OurServicesWithButtonWithBg'
 
 function JoinOurTeamSection() {
     return (
-        <div className=' bg-lightBg no | mx-4'>
+        <div className=' bg-lightBg no | mx-4 | sm:mx-6'>
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
 
                 <div className='no | flex flex-col justify-between items-start '>
