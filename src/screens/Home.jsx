@@ -31,10 +31,10 @@ function Home() {
         <div>
             {/* <Header /> */}
             <HeroSection />
-            {/* <AchievementsSection />
-            <OurServicesSection />
+            <AchievementsSection />
+            {/*<OurServicesSection />
             <AccordianSection />
-         
+
             <WhyUsSection />
             <TestimonialSection />
             <FaqSection />

@@ -5,11 +5,11 @@ import { TiTick } from "react-icons/ti";
 function HeroSection() {
     return (
         <div className='mt-32 xl:w-11/12 lg:mx-auto  2xl:w-11/12
-        lg:flex lg:flex-col lg:items-start  lg:rounded-3xl  text-light bg-dark lg:pt-28 lg:px-24 font-inter |  mx-5 rounded-3xl  px-8 py-12'>
+        lg:flex lg:flex-col lg:items-start  lg:rounded-3xl  text-light bg-dark lg:pt-28 lg:px-24 font-inter |  mx-5 rounded-3xl  px-6 py-12'>
 
             <div className='lg:flex lg:justify-between 2xl:px-32 sm:flex-row'>
                 <div className='lg:w-1/2 sm:w-full'>
-                    <h1 className='lg:text-6xl sm:text-center sm:text-3xl  lg:leading-snug lg:font-bold text-center no | text-3xl font-semibold leading-snug'> <span className='2xl:block block'>Compiling  Code</span>   With <span className="text-primary">High-Tech </span> <br></br>Flames</h1>
+                    <h1 className='lg:text-6xl sm:text-center sm:text-3xl  lg:leading-snug lg:font-bold text-center no | text-4xl font-semibold leading-snug'> <span className='2xl:block block'>Compiling  Code</span>   With <span className="text-primary">High-Tech </span> <br></br>Flames</h1>
                 </div>
 
                 <div className='lg:w-1/2  sm:w-full lg:pt-8 lg:px-24 no| w-full'>
