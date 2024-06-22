@@ -33,9 +33,9 @@ function Home() {
             <HeroSection />
             <AchievementsSection />
              <OurServicesSection />
-            {/*  <AccordianSection />
+            <AccordianSection />
 
-            <WhyUsSection />
+            {/*  <WhyUsSection />
             <TestimonialSection />
             <FaqSection />
             <JoinOurTeamSection />
