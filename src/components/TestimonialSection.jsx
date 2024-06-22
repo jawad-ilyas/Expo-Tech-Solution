@@ -50,10 +50,10 @@ function TestimonialSection() {
     ];
 
     return (
-        <div className='mb-20 no | mx-6 | sm:mx-8'>
+        <div className='mb-20 no | mx-6 | sm:mx-6 | md:mx-10'>
             <div className='xl:w-11/12 mx-auto 2xl:w-8/12'>
                 <OurServices title={"Testimonials"} description={"What our clients are saying"} />
-                <div className='no | grid grid-cols-1 gap-x-0 gap-y-2'>
+                <div className='no | grid grid-cols-1 gap-x-0 gap-y-2 | md:grid-cols-2 md:gap-x-4 md: '>
                     {testimonials.map((items , index)=>(
                         <Testimonials key={index} content={items.content}  image={items.image} name={items.name} title={items.title} company={items.company} /> 
                     ))}

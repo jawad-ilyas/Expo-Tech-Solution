@@ -21,7 +21,7 @@ function Home() {
     useEffect(() => {
         AOS.init({
             duration: 500,
-            delay: 200
+            delay: 100
         });
     }, []);
 
