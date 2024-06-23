@@ -44,9 +44,9 @@ function Accordion() {
     };
 
     return (
-        <div className='xl:w-11/12  2xl:w-8/12 mb-20 ' >
-            <div className='no | flex flex-col items-center lg:space-x-16'>
-                <div className='lg:w-1/2 lg:space-y-4 no |  order-1 mx-4 mt-4 | md:mx-8'>
+        <div className=' mb-20 ' >
+            <div className='no | flex flex-col items-center |  lg:space-x-16 lg:flex-row  '>
+                <div className='lg:w-1/2 lg:space-y-4 no |  order-1 mx-4 mt-4 | md:mx-8 lg:order-0'>
                     {items.map((item, index) => (
                         <div key={index} className={` ${openIndex === index ? 'delay-300 duration-300 transition-all ease-in-out text-primary' : "text-gray-600 "} `}>
                             <div
@@ -76,7 +76,7 @@ function Accordion() {
                         </div>
                     ))}
                 </div>
-                <div className=' no | lg:w-1/2 p-2 image_class  order-0 flex items-center justify-center'>
+                <div className=' no | lg:w-1/2 p-2 image_class  order-0 flex items-center justify-center | lg:order-1'>
                     {currentImage && <img className='rounded-3xl' src={currentImage} alt="Selected" />}
                 </div>
             </div>

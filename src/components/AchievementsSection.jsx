@@ -11,7 +11,7 @@ const statisticsData = [
 function AchievementsSection() {
     return (
         <div
-            className="bg-lightBg grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 rounded-3xl my-8 p-4 mx-2"
+            className="bg-lightBg grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 rounded-3xl my-8 p-4 mx-2 | xl:container xl:mx-auto"
         >
             {statisticsData.map((item, index) => (
                 <div key={index} className={`border-r-2 border-gray-200 `}>

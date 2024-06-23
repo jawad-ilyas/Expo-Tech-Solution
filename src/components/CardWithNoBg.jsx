@@ -3,7 +3,7 @@ import React from 'react'
 function CardWithNoBg({ title, description, animation, image, hoverOrNot, imageBg }) {
     return (
         <div className={` ${hoverOrNot === false ? "" : " hover:bg-primary group"}  hover:cursor-pointer  rounded-3xl flex flex-col justify-between ${animation}`}>
-            <div className='lg:space-y-4  no | flex flex-col items-center justify-center space-y-2 text-center'>
+            <div className='lg:space-y-4  no | flex flex-col items-center justify-center space-y-2 md:text-center lg:items-start lg:text-start  '>
                 <div className={`${imageBg ? " bg-primary size-20 flex items-center justify-center rounded-2xl" : ""}`}>
                     <img src={image} alt="Web Development" />
 
