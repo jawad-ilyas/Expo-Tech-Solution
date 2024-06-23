@@ -2,8 +2,8 @@ import React from 'react';
 import logoFooter from "../assets/logo-footer.png"
 function Footer() {
     return (
-        <div className='mb-20 pb-10 no | mx-4 mt-10 | sm:mx-6 | md:mx-8'>
-            <div className="xl:w-11/12 mx-auto 2xl:w-8/12 bg-[url('/src/assets/footer-wave.png')] bg-no-repeat bg-cover py-16 bg-dark text-white rounded-3xl lg:pt-28 lg:px-24 no | px-8 pt-10">
+        <div className='mb-20 pb-10 no | mx-4 mt-10 | sm:mx-6 | md:mx-8 | xl:w-11/12 xl:mx-auto |  2xl:w-10/12 2xl:mx-auto'>
+            <div className=" bg-[url('/src/assets/footer-wave.png')] bg-no-repeat bg-cover py-16 bg-dark text-white rounded-3xl lg:pt-28 lg:px-24 no | px-8 pt-10">
                 <div className="">
                     <div className="">
                         <div className="no | flex flex-col  justify-between items-start | lg:flex-row lg:justify-between">

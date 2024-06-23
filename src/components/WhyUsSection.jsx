@@ -36,7 +36,7 @@ function WhyUsSection() {
     ];
 
     return (
-        <div className='no | mx-4 | sm:mx-6 | md:mx-8 md:mb-20 | xl:container xl:mx-auto'>
+        <div className='no | mx-4 | sm:mx-6 | md:mx-8 md:mb-20 | xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto'>
             <div className=''>
 
                 <div className='no | flex flex-col justify-between items-start  lg:flex-row'>

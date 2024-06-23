@@ -36,7 +36,7 @@ function OurServicesSection() {
         }
     ];
     return (
-        <div className='no |  mx-4 | sm:mx-6 | md:mx-8 | xl:container xl:mx-auto'>
+        <div className='no |  mx-4 | sm:mx-6 | md:mx-8 | xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto'>
             <OurServices title={"Our Services"} description={"We provide a wide range of Services"} />
             <div className=' mb-28 no | grid grid-cols-1 gap-5 | md:grid-cols-2'>
                 {cardData.map((card, index) => (

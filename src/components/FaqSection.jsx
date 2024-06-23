@@ -36,7 +36,7 @@ function FaqSection() {
         }
     ];
     return (
-        <div className='mb-20 no | mx-4 | sm:mx-6 | md:mx-8 | xl:container xl:mx-auto' >
+        <div className='mb-20 no | mx-4 | sm:mx-6 | md:mx-8 | xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto' >
             <div className=' mx-auto '>
                 <div className='no | flex flex-col justify-between items-start  | lg:flex-row'>
                     <div className='2xl:w-5/12 xl:w-5/12 | lg:w-5/12'>
