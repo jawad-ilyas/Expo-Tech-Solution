@@ -10,8 +10,8 @@ function HeroSection() {
                     <h1 className='sm:text-center lg:leading-snug lg:font-bold text-center text-4xl font-semibold leading-snug sm:text-5xl sm:leading-snug lg:mt-8 lg:text-5xl'>
                         <span className='2xl:block block md:inline-block lg:block'>Compiling Code</span>
                         <span>With</span>
-                        <span className="text-primary md:inline-block">High-Tech</span>
-                        <span className='xl:block'>Flames</span>
+                        <span className="text-primary md:inline-block"> High-Tech</span>
+                        <span className='xl:block'> Flames</span>
                     </h1>
                 </div>
 
