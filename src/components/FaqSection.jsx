@@ -41,7 +41,7 @@ function FaqSection() {
                 <div className='no | flex flex-col justify-between items-start  | lg:flex-row'>
                     <div className='2xl:w-5/12 xl:w-5/12 | lg:w-5/12'>
                         <OurServices title={"Any questions? Check out the FAQ"} description={"Curious minds, meet clarity. Unearth answers in our comprehensive FAQ section, illuminating our services and processes."} center={false} />
-                        <div className='lg:flex lg:items-center lg:justify-between sm:hidden | md:flex md:items-center md:justify-center md:mb-4'>
+                        <div className='lg:flex lg:items-center lg:justify-between sm:hidden hidden | md:flex md:items-center md:justify-center md:mb-4'>
                             <img src={dynamicArrow} />
                         </div>
                     </div>

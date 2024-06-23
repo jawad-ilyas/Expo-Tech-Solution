@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 
 function HeroSection() {
     return (
-        <div className='mt-32 text-light bg-dark font-inter bg-[url("/src/assets/hero-wave.png")] bg-no-repeat bg-cover mx-4 rounded-3xl px-6 py-12 sm:mx-6 md:mx-8 lg:w-full xl:container xl:mx-auto | 2xl:w-full'>
+        <div className='mt-32 text-light bg-dark font-inter bg-[url("/src/assets/hero-wave.png")] bg-no-repeat bg-cover mx-4 rounded-3xl px-6 py-12 sm:mx-6 md:mx-8 lg:w-full xl:container xl:mx-auto | '>
             <div className='lg:flex lg:justify-between 2xl:px-32 sm:flex-row'>
                 <div className='sm:w-full lg:w-1/2'>
                     <h1 className='sm:text-center lg:leading-snug lg:font-bold text-center text-4xl font-semibold leading-snug sm:text-5xl sm:leading-snug lg:mt-8 lg:text-5xl'>
