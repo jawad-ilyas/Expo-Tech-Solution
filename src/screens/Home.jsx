@@ -29,7 +29,7 @@ function Home() {
 
 
     return (
-        <div className='dark:bg-dark'>
+        <div className= 'bg-lightBg   dark:bg-dark'>
             {/* <Header /> */}
             <EmptySection />
             <HeroSection />

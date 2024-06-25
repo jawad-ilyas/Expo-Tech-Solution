@@ -6,7 +6,7 @@ import OurServicesWithButtonWithBg from './OurServicesWithButtonWithBg'
 function JoinOurTeamSection() {
     return (
         <div className='bg-lightBg dark:bg-darkbg'>
-            <div className='  no | mx-4 | sm:mx-6  | md:mx-8 | xl:rounded-3xl xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto 2xl:rounded-3xl | '>
+            <div className='  no | mx-4 | sm:mx-6  | md:mx-8 | xl:rounded-3xl xl:container xl: |  2xl:w-9/12 2xl:mx-auto 2xl:rounded-3xl | '>
                 <div className=''>
 
                     <div className='  no | flex flex-col justify-between items-start  | lg:flex-row '>

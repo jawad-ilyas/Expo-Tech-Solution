@@ -4,7 +4,8 @@ import { themeChange } from '../features/theme/ThemeSlice'
 import { LuExternalLink } from "react-icons/lu";
 import { IoMoonOutline } from "react-icons/io5";
 import { IoSunnyOutline } from 'react-icons/io5';
-
+import MainLogo from "../assets/icon.png"
+import { Link } from 'react-router-dom';
 export default function Header() {
 
 
@@ -33,9 +34,10 @@ export default function Header() {
 
   return (
     <div className='dark:bg-red-400'>
-      <div className='xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto  flex justify-between  items-center fixed top-3 inset-0 bg-dark z-[1000000000000000] text-white h-20 rounded-full shadow-xl py-8'>
+      {/* <div className='xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto  flex justify-between  items-center fixed top-3 inset-0 bg-dark z-[1000000000000000] text-white h-20 rounded-full shadow-xl py-8'> */}
+      <div className='xl:container xl:mx-auto |    flex justify-between  items-center fixed top-3 inset-0 bg-dark z-[1000000000000000] text-white h-20 rounded-full shadow-xl py-8 no | w-full'>
         <div className=' flex items-center'>
-          <img className='h-10 w-48 object-contain' src='https://codeflamme.com/_next/image?url=%2Flogo-light.png&w=256&q=75' />
+          <Link to="/" >  <img className='size-28 object-contain' src={MainLogo} /></Link>
         </div>
         <div className='flex ms-6 items-center'>
           {mainMenu.map((items, index) => (

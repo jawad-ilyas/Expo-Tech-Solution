@@ -18,6 +18,7 @@ export default {
       },
       colors: {
         primary: '#448c74',
+        primaryLight: '#ECF3F1',
         secondary: '#edf1f5',
         success: '#3fca90',
         info: '#3f7fca',
