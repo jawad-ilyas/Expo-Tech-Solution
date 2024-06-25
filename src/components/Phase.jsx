@@ -2,7 +2,7 @@ import React from 'react'
 import Phase1 from "../assets/aboutus/light_01.png"
 import Phase1Dark from "../assets/aboutus/dark_01.png"
 import { useSelector } from 'react-redux'
-function Phase({ title, description, left, phaseNumber, lightModeimage, DarkModeImage }) {
+function Phase({ title, description, left, phaseNumber, lightModeimage, DarkModeImage, fading, fadeOnImage }) {
 
     const theme = useSelector(state => state.theme.themeValue)
 
@@ -11,7 +11,7 @@ function Phase({ title, description, left, phaseNumber, lightModeimage, DarkMode
             {left === true ? <div className=' w-full | xl:container xl:px-16 | '>
 
                 <div className='w-full | xl:flex xl:items-start xl:justify-between xl:space-x-28 '>
-                    <div className='xl:w-1/2 '>
+                    <div className='xl:w-1/2 ' data-aos={fading}>
                         <div className='pb-4'>
                             <div className='bg-primaryLight dark:bg-darkbg w-24 h-8 text-center    rounded-full | xl:flex xl:items-center xl:justify-center'>
                                 <p className='text-primary'>{phaseNumber}</p>
@@ -22,7 +22,7 @@ function Phase({ title, description, left, phaseNumber, lightModeimage, DarkMode
                             {description}
                         </p>
                     </div>
-                    <div className='xl:w-1/2 mt-12'>
+                    <div className='xl:w-1/2 mt-12' data-aos={fadeOnImage} >
                         {/* Conditional rendering based on theme */}
                         {theme === 'dark' ? (
                             <img src={DarkModeImage} className='shadow' alt="Phase 01 Dark Mode" />
@@ -35,15 +35,15 @@ function Phase({ title, description, left, phaseNumber, lightModeimage, DarkMode
 
                 <div className='w-full | xl:flex xl:items-start xl:justify-between xl:space-x-28 '>
 
-                    <div className='xl:w-1/2  mt-12'>
+                    <div className='xl:w-1/2  mt-12' data-aos={fadeOnImage}>
                         {/* Conditional rendering based on theme */}
                         {theme === 'dark' ? (
-                            <img src={DarkModeImage} className='shadow' alt="Phase 01 Dark Mode" />
+                            <img src={DarkModeImage} className='shadow' alt="Phase 01 Dark Mode" data-aos={fadeOnImage} />
                         ) : (
-                            <img src={lightModeimage} alt="Phase 01 Light Mode" />
+                            <img src={lightModeimage} alt="Phase 01 Light Mode" data-aos={fadeOnImage} />
                         )}
                     </div>
-                    <div className='xl:w-1/2 '>
+                    <div className='xl:w-1/2 ' data-aos={fading}>
                         <div className='pb-4'>
                             <div className='bg-primaryLight dark:bg-darkbg w-24 h-8 text-center    rounded-full | xl:flex xl:items-center xl:justify-center'>
                                 <p className='text-primary'>{phaseNumber}</p>

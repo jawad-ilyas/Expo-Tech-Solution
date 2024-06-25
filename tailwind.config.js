@@ -6,9 +6,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    
+
     extend: {
-      
+      transformStyle: {
+        'preserve-3d': 'preserve-3d'
+      },
+      perspective: {
+        '1000': '1000px'
+      },
       container: {
         center: true,
         padding: '20px',
@@ -21,9 +26,9 @@ export default {
         primaryLight: '#ECF3F1',
         secondary: '#edf1f5',
         success: '#3fca90',
-        info: '#3f7fca',
+        blue: '#3f7fca',
         warning: '#edcb50',
-        danger: '#ed5050',
+        red: '#ed5050',
         light: '#fff',
         dark: '#121519',
         lightGray: 'hsla(0, 0%, 100%, 0.7)',

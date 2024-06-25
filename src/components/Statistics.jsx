@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Statistics({ heading, text, isFlex }) {
+function Statistics({ heading, text, isFlex, indexNumber }) {
     return (
         <div className={`${isFlex ? 'flex flex-col items-center text-start justify-center' : ''} `}>
          <div>

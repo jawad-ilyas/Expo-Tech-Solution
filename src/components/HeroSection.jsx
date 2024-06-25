@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import { TiTick } from "react-icons/ti";
-
+import Tick from "/src/assets/tick.svg"
 function HeroSection() {
     return (
         <div className=' text-light bg-dark font-inter bg-[url("/src/assets/hero-wave.png")] bg-no-repeat bg-cover mx-4 rounded-3xl px-6 py-12 sm:mx-6 md:mx-8 lg:w-full | xl:w-11/12 xl:mx-auto |  2xl:10/12 shadow-2xl'>
@@ -31,11 +31,11 @@ function HeroSection() {
                 <div className='lg:w-1/2'></div>
                 <div className='lg:w-1/2 lg:ps-20 w-full flex flex-col justify-center items-center sm:flex-row'>
                     <div className='flex items-center'>
-                        <img src='/src/assets/tick.svg' alt="tick" />
+                        <img src={Tick} alt="tick" />
                         <p className='ms-2 text-lightGray text-base'>Full spectrum of services</p>
                     </div>
                     <div className='flex items-center ms-2'>
-                        <img src='/src/assets/tick.svg' alt="tick" />
+                        <img src={Tick} alt="tick" />
                         <p className='ms-2 text-lightGray text-base'>Flexible work terms</p>
                     </div>
                 </div>
