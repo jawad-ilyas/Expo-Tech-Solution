@@ -5,7 +5,7 @@ const FlipCard = ({ frontTitle, frontDescription, frontImage, backImage, hoverCo
     const [isFlipped, setIsFlipped] = useState(false);
 
     return (
-        <div className="flex min-h-screen items-center justify-center ">
+        <div className="flex  items-center justify-center ">
             <div className='h-[600px] w-96 cursor-pointer '
                 style={{ perspective: '1000px' }}
                 onMouseEnter={() => setIsFlipped(true)}
