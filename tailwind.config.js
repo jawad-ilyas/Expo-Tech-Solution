@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
+      
       container: {
         center: true,
         padding: '20px',
@@ -23,7 +26,8 @@ export default {
         light: '#fff',
         dark: '#121519',
         lightGray: 'hsla(0, 0%, 100%, 0.7)',
-        lightBg: '#F6F9FC'
+        lightBg: '#F6F9FC',
+        darkbg: '#181B1E',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

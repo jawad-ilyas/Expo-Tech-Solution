@@ -16,6 +16,7 @@ import { FaQ } from 'react-icons/fa6';
 import FaqSection from '../components/FaqSection.jsx';
 import JoinOurTeamSection from '../components/JoinOurTeamSection.jsx';
 import Footer from '../components/Footer.jsx';
+import EmptySection from '../components/EmptySection.jsx';
 
 function Home() {
     useEffect(() => {
@@ -28,8 +29,9 @@ function Home() {
 
 
     return (
-        <div>
+        <div className='dark:bg-dark'>
             {/* <Header /> */}
+            <EmptySection />
             <HeroSection />
             <AchievementsSection />
              <OurServicesSection />
@@ -38,8 +40,8 @@ function Home() {
            <WhyUsSection />
              <TestimonialSection />
             <FaqSection />
-          <JoinOurTeamSection />
-             <Footer />
+           
+          
         </div>
     );
 }

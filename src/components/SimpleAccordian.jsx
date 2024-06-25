@@ -33,15 +33,15 @@ function SimpleAccordian() {
         <div>
             <div className='w-full space-y-4'>
                 {items.map((item, index) => (
-                    <div key={index} className={` ${openIndex === index ? 'delay-300 duration-300 transition-all ease-in-out text-primary' : "text-gray-600 "}  bg-lightBg px-8 pt-4 rounded-xl`}>
+                    <div key={index} className={` ${openIndex === index ? 'delay-300 duration-300 transition-all ease-in-out text-primary dark:text-primary' : "text-gray-600 "}  bg-lightBg px-8 pt-4 rounded-xl dark:bg-darkbg`}>
                         <div
-                            className={` font-inter  pb-4 cursor-pointer text-lg font-semibold  ${openIndex === index ? 'text-primary' : "text-gray-600 "} `}
+                            className={` font-inter  pb-4 cursor-pointer text-lg font-semibold  ${openIndex === index ? 'text-primary dark:text-primary' : "text-gray-600 "} `}
                             onClick={() => handleClick(index)}
                             aria-expanded={openIndex === index}
                             role='button'
                         >
                             <div className='flex flex-row justify-between items-center'>
-                                <h1>{item.title}</h1>
+                                <h1 className='dark:text-secondary dark:text-primary'>{item.title}</h1>
 
 
                                 {openIndex === index ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
@@ -57,7 +57,7 @@ function SimpleAccordian() {
                             <div
                                 className={`transition-opacity duration-500 ease-in-out ${openIndex === index ? 'opacity-100' : 'opacity-0'}`}
                             >
-                                <div className="text-gray-500 pb-4">{item.content}</div>
+                                <div className="text-gray-500 pb-4 dark:text-lightGray">{item.content}</div>
                             </div>
                         </div>
                     </div>

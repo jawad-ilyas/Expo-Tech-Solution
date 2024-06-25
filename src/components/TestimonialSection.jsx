@@ -50,7 +50,7 @@ function TestimonialSection() {
     ];
 
     return (
-        <div className='mb-20 no | mx-6 | sm:mx-6 | md:mx-10 | xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto'>
+        <div className='mb-20 no | mx-6 | sm:mx-6 | md:mx-10 | xl:w-11/12 xl:mx-auto |  2xl:w-9/12 2xl:mx-auto '>
             <div className=''>
                 <OurServices title={"Testimonials"} description={"What our clients are saying"} />
                 <div className='no | grid grid-cols-1 gap-x-0 gap-y-2 | md:grid-cols-2 md:gap-x-4 md: '>

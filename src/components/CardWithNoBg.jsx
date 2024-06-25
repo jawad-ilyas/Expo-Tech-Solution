@@ -8,8 +8,8 @@ function CardWithNoBg({ title, description, animation, image, hoverOrNot, imageB
                     <img src={image} alt="Web Development" />
 
                 </div>
-                <h2 className='text-dark text-2xl font-semibold group-hover:text-white'>{title}</h2>
-                <p className='text-gray-500 text-lg group-hover:text-lightGray'>
+                <h2 className='text-dark text-2xl font-semibold group-hover:text-white | dark:text-secondary'>{title}</h2>
+                <p className='text-gray-500 text-lg group-hover:text-lightGray dark:text-lightGray'>
                     {description}
                 </p>
             </div>

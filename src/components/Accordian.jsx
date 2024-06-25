@@ -50,7 +50,7 @@ function Accordion() {
                     {items.map((item, index) => (
                         <div key={index} className={` ${openIndex === index ? 'delay-300 duration-300 transition-all ease-in-out text-primary' : "text-gray-600 "} `}>
                             <div
-                                className={` font-inter  pb-4 cursor-pointer lg:text-3xl font-semibold  ${openIndex === index ? 'text-primary' : "text-gray-600 "} no | text-2xl `}
+                                className={` font-inter  pb-4 cursor-pointer lg:text-3xl font-semibold   ${openIndex === index ? 'text-primary  dark:text-primary' : "text-gray-600 "} no | text-2xl  | dark:text-secondary/90`}
                                 onClick={() => handleClick(index, item.image)}
                                 aria-expanded={openIndex === index}
                                 role='button'
@@ -70,7 +70,7 @@ function Accordion() {
                                 }}
                             >
                                 <div className={` transition-opacity duration-500 ease-in-out   ${openIndex === index ? 'opacity-100' : 'opacity-0'} `}>
-                                    <div className='text-gray-500 p-2'>{item.content}</div>
+                                    <div className='text-gray-500 p-2 dark:text-lightGray'>{item.content}</div>
                                 </div>
                             </div>
                         </div>
