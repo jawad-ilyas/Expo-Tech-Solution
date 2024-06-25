@@ -5,12 +5,12 @@ import { setSystemTheme } from '../features/theme/ThemeSlice';
 function detectSystemTheme() {
     let systemTheme
     const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    console.log("darkModeMediaQuery : ", darkModeMediaQuery)
+    // console.log("darkModeMediaQuery : ", darkModeMediaQuery)
     const setTheme = () => {
         const storedTheme = localStorage.getItem('theme');
-        console.log("storedTheme : ", storedTheme)
+        // console.log("storedTheme : ", storedTheme)
         const systemTheme = storedTheme ? storedTheme : (darkModeMediaQuery.matches ? 'dark' : 'light');
-        console.log("sysmte theme : ", systemTheme)
+        // console.log("sysmte theme : ", systemTheme)
         store.dispatch(setSystemTheme(systemTheme))
         document.documentElement.classList.add(systemTheme);
 
